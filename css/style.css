@@ -136,14 +136,21 @@ img {
 }
 
 @media screen and (max-width:480px) {
+
     .row {
         display: flex;
         flex-direction: column;
     }
 
     .col {
-        width: 100%;
         margin: auto;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
     }
 
     .why-us {
