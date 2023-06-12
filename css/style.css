@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -128,15 +129,20 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (max-width:1139px) {
+@media screen and (max-width:1139px) {
     .container {
         width: 100%;
     }
- }
+}
 
- /* @media screen and (max-width:480px) {
-    .container {
+@media screen and (max-width:480px) {
+    .row {
         display: flex;
         flex-direction: column;
     }
- } */
+
+    .col {
+        width: 100%;
+        margin: auto;
+    }
+}
